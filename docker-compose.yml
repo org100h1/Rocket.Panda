@@ -22,7 +22,7 @@ rocketchat:
 hubot:
   image: rocketchat/hubot-rocketchat
   environment:
-    - ROCKETCHAT_URL=rocketchat:3000
+    - ROCKETCHAT_URL=rocketchat:80
     - ROCKETCHAT_ROOM=GENERAL
     - ROCKETCHAT_USER=bot
     - ROCKETCHAT_PASSWORD=botpassword
