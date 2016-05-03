@@ -10,8 +10,8 @@ rocketchat:
 # volumes:
 #    - ./uploads:/app/uploads
   environment:
-    - PORT=3000
-    - ROOT_URL=http://redpanda.ml:3000
+    - PORT=80
+    - ROOT_URL=http://redpanda.ml:80
     - MONGO_URL=mongodb://mongo:27017/rocketchat
   links:
     - mongo:mongo
